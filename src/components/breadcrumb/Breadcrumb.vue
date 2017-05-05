@@ -1,5 +1,5 @@
 <template lang="pug">
-  div.level.lime
+  div.level.verde-escuro
     nav.level-left
       div.level-item
         h4.subtitle.is-4 {{text}}
@@ -29,6 +29,8 @@
     width: 100%
     justify-content: flex-end
     flex-direction: column
+    &.verde-escuro
+      background: $verde-escuro
     +desktop
       justify-content: flex-start
       flex-direction: row

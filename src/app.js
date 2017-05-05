@@ -13,11 +13,11 @@ import Home from './pages/home/Home.vue'
 import { routes as InstitutionalRoutes } from './pages/institutional'
 import { routes as ScoutRoutes } from './pages/scout'
 import { routes as NewsRoutes } from './pages/news'
-import { routes as EventsRoutes } from './pages/events'
-import { routes as FormsRoutes } from './pages/forms'
-import { routes as ContatRoutes } from './pages/contact'
-import { routes as NewsletterRoutes } from './pages/newsletter'
+import { routes as ContactRoutes } from './pages/contact'
+// import { routes as NewsletterRoutes } from './pages/newsletter'
 import { routes as DocumentsRoutes } from './pages/documents'
+import { routes as GroupsRoutes } from './pages/groups'
+
 
 import OneSignal from './services/onesignal'
 
@@ -47,7 +47,7 @@ Vue.use(VueRouter)
 Vue.use(SocialSharing)
 Vue.use(VueHead, {
   separator: ' | ',
-  complement: 'Escoteiros de Minas'
+  complement: 'Distrito Metropolitano'
 })
 
 Vue.filter('stripped', value => {
@@ -66,15 +66,13 @@ const routes = [
     },
     component: Home
   },
+
   {...InstitutionalRoutes},
   {...NewsRoutes},
-  {...EventsRoutes},
   {...ScoutRoutes},
-  {...FormsRoutes},
-  {...ContatRoutes},
-  {...NewsletterRoutes},
+  {...ContactRoutes},
   {...DocumentsRoutes},
-
+  
   // Redirect to Home
   {
     path: '*',
