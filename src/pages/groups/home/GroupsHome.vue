@@ -7,21 +7,19 @@
       div.hero-foot
         breadcrumb
     div.groups-content
-      p Conteudo...
       div.columns.is-multiline
         div.column.is-4(v-for="city in cities")
           div.card
             div.card-image
-              router-link(:to="{ name: 'groupsCity', params: { city: city.name }}")
-                figure.image.is-4by3
-                  img(src="http://bulma.io/images/placeholders/1280x960.png")
+              router-link(:to="{ name: 'groupsCity', params: { city: city.slug }}")
+                figure.image.is-2by1
+                  img(v-bind:src="getCityBanner(city)")
             div.card-content
               div.media
                 div.media-content
                   h4.title.is-4
-                    router-link(:to="{ name: 'groupsCity', params: { city: city.name }}") {{city.name}}
+                    router-link(:to="{ name: 'groupsCity', params: { city: city.slug }}") {{city.name}}
               div.content
-                | A Diretoria Regional é o órgão executivo da Região, com mandato de três anos. É composta por cinco membros, eleitos pela Assembléia Regional, sendo um deles o Diretor Presidente, que coordena, dirige e representa a Região.
     br
 </template>
 
@@ -45,6 +43,11 @@
         })
       }
     },
+    methods: {
+      getCityBanner (city) {
+        return require(`../../../assets/images/cidades/${city.banner}`)
+      }
+    },
     data () {
       return {
         cities: groupsService.cities
@@ -57,6 +60,14 @@
             window.prerenderReady = true
           }, 1500)
         }
+      })
+    },
+    beforeRouteEnter (to, from, next) {
+      next((vm) => {
+        vm.city = groupsService.cities.find((city) => {
+          return city.slug === to.params.city
+        })
+        vm.$emit('updateHead')
       })
     }
   }
@@ -85,4 +96,5 @@
           text-transform: uppercase
           font-family: 'Roboto'
           font-weight: 300
+      
 </style>

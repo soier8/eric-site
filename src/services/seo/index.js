@@ -1,4 +1,3 @@
-
 const getSeoTitle = (title) => {
   return {
     inner: title
@@ -9,7 +8,7 @@ const getSeoMeta = (params) => {
   return [
     {
       n: 'description',
-      c: params.description || 'Site Oficial da Região Escoteira de Minas Gerais - Escoteiros do Brasil'
+      c: params.description || 'Site Oficial daz Região Escoteira de Minas Gerais - Escoteiros do Brasil'
     },
     {
       p: 'og:type',

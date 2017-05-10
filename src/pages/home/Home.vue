@@ -108,8 +108,8 @@
       title: getSeoTitle('Home'),
       meta: () => {
         return getSeoMeta({
-          title: 'Home - Escoteiros de Minas',
-          description: 'Site Oficial dos Escoteiros de Minas Gerais'
+          title: 'Home - Distrito Metropolitano',
+          description: 'Site Oficial do Distrito Metropolitano'
         })
       }
     },

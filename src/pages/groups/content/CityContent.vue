@@ -7,13 +7,12 @@
       div.hero-foot
         breadcrumb
     div.groups-content
-      p conteudo
       div.columns.is-multiline
         div.column.is-4(v-for="group in city.groups")
           div.card
             div.card-image
-              figure.image.is-4by3
-                img(src="http://bulma.io/images/placeholders/1280x960.png")
+              figure.image.is-2by1
+                img(v-bind:src="getGroupBanner(group)")
             div.card-content
               div.media
                 div.media-content
@@ -24,6 +23,7 @@
                 p {{group.phone}}
     br
 </template>
+
 
 <script>
   import groupsService from '../../../services/groups'
@@ -42,14 +42,20 @@
         return getSeoMeta({
           title: this.city.name,
           description: `Descubra os grupos escoteiros de ${this.city.name}`
-          // image: `${process.env.IMG_URL}${this.city.banner}`
+          // image: `${process.env.83.jpg}${this.city.banner}`
         })
+      }
+    },
+    methods: {
+      getGroupBanner (group) {
+        return require(`../../../assets/images/grupos-escoteiros/${group.banner}`)
       }
     },
     data () {
       return {
         city: {
-          name: ''
+          name: '',
+          banner: ''
         }
       }
     },
@@ -66,17 +72,21 @@
     },
     computed: {
       backgroundBanner () {
-        const url = 'https://vuejs.org/images/logo.png'
+        if (!this.city || !this.city.banner) {
+          return false
+        }
+
+        const url = require(`../../../assets/images/cidades/${this.city.banner}`)
         return {
           'color': 'red',
-          'background-image': url
+          'background-image': `url(${url})`
         }
       }
     },
     beforeRouteEnter (to, from, next) {
       next((vm) => {
         vm.city = groupsService.cities.find((city) => {
-          return city.name === to.params.city
+          return city.slug === to.params.city
         })
         vm.$emit('updateHead')
       })
@@ -96,7 +106,7 @@
     .hero-body
       padding-top: 12rem
       min-height: 25rem
-      section.container
+      section.content-container
         text-align: left
       .subtitle
         margin-bottom: 0px
