@@ -8,7 +8,7 @@
         breadcrumb
     div.groups-content
       div.columns.is-multiline
-        div.column.is-4(v-for="group in city.groups")
+        div.column.is-4.teste(v-for="group in city.groups")
           div.card
             div.card-image
               figure.image.is-2by1
@@ -42,7 +42,6 @@
         return getSeoMeta({
           title: this.city.name,
           description: `Descubra os grupos escoteiros de ${this.city.name}`
-          // image: `${process.env.83.jpg}${this.city.banner}`
         })
       }
     },

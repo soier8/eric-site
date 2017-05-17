@@ -8,7 +8,7 @@
         breadcrumb
     div.groups-content
       div.columns.is-multiline
-        div.column.is-4(v-for="city in cities")
+        div.column.is-4.teste(v-for="city in cities")
           div.card
             div.card-image
               router-link(:to="{ name: 'groupsCity', params: { city: city.slug }}")
@@ -38,8 +38,8 @@
       },
       meta () {
         return getSeoMeta({
-          title: 'Grupos Escoteiros - Escoteiros de Minas',
-          description: 'Confira os grupos escoteiros da Região Escoteira de Minas Gerais.'
+          title: 'Grupos Escoteiros - Distrito Metropolitano',
+          description: 'Confira os grupos escoteiros do Distrito Metropolitano.'
         })
       }
     },
@@ -95,6 +95,5 @@
           color: white
           text-transform: uppercase
           font-family: 'Roboto'
-          font-weight: 300
-      
+          font-weight: 300  
 </style>

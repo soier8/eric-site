@@ -90,11 +90,11 @@
   import NewHighlight from '../../components/news/NewHighlight.vue'
   import Shortcuts from '../../components/shortcuts/Shortcuts.vue'
   import Breadcrumb from '../../components/breadcrumb/Breadcrumb.vue'
-  import newsService from '../../services/news'
+//  import newsService from '../../services/news'
   import { getSeoTitle, getSeoMeta } from '../../services/seo'
   import OneSignal from '../../services/onesignal'
 
-  const FIXED_NEWS = '591f14b1f51239070e13eea2'
+  const FIXED_NEWS = '5967d62eef45a52975017fda'
 
   export default {
     components: {
@@ -119,7 +119,7 @@
         news: [],
         msg: 'Stuff'
       }
-    },
+    }
     created () {
       const vm = this
       this.$on('okHead', () => {
@@ -135,6 +135,7 @@
       newsService.get({page: 1, limit: 4}).then((response) => {
         vm.news = response.body.news
       })
+
       newsService.find(FIXED_NEWS).then((response) => {
         vm.fixedNews = response.body
       })

@@ -171,7 +171,7 @@ export default {
     {
       name: 'Contagem',
       slug: 'contagem',
-      banner: 'cid.jpg',
+      banner: 'contagem.jpg',
       groups: [
         {
           name: 'GRUPO ESCOTEIRO RUI BARBOSA - 68/MG',
