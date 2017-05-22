@@ -12,7 +12,7 @@
       div.columns.container.container-responsive
         div.column.is-7.columns
           div.column
-            h1.title.is-2 Notíciasa
+            h1.title.is-2 Notícias
             div.columns.align-items-center
               div.column.is-4.has-text-centered
                 figure.image.is-square
@@ -87,7 +87,7 @@
 <script>
   import MoreButton from '../../components/buttons/MoreButton.vue'
   import SearchField from '../../components/input/SearchField.vue'
-  import NewHighlight from '../../components/news/NewHighlight.vue'
+//  import NewHighlight from '../../components/news/NewHighlight.vue'
 //  import Shortcuts from '../../components/shortcuts/Shortcuts.vue'
   import Breadcrumb from '../../components/breadcrumb/Breadcrumb.vue'
 //  import newsService from '../../services/news'
@@ -100,7 +100,7 @@
     components: {
       'more-button': MoreButton,
       'search-field': SearchField,
-      'new-highlight': NewHighlight,
+  //    'new-highlight': NewHighlight,
   //  'shortcuts': Shortcuts,
       'breadcrumb': Breadcrumb
     },
