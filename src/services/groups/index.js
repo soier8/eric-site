@@ -3,7 +3,7 @@ export default {
     {
       name: 'Belo Horizonte',
       slug: 'belo-horizonte',
-      banner: 'bh.jpg',
+      banner: 'bh.png',
       groups: [
         {
           name: 'GE DO AR PADRE EUSTÁQUIO - 07/MG ',
@@ -143,7 +143,7 @@ export default {
     {
       name: 'Betim',
       slug: 'betim',
-      banner: 'betim.jpg',
+      banner: 'betim.png',
       groups: [
         {
           name: 'GRUPO ESCOTEIRO OLAVE SAINT CLAIR - 83/MG ',
@@ -157,7 +157,7 @@ export default {
     {
       name: 'Conceição do Mato Dentro',
       slug: 'conceicao-mato-dentro',
-      banner: 'conceicao_mato_dentro.jpg',
+      banner: 'concei.png',
       groups: [
         {
           name: 'GRUPO ESCOTEIRO MATO DENTRO - 177/MG',
@@ -171,7 +171,7 @@ export default {
     {
       name: 'Contagem',
       slug: 'contagem',
-      banner: 'contagem.jpg',
+      banner: 'contagem.png',
       groups: [
         {
           name: 'GRUPO ESCOTEIRO RUI BARBOSA - 68/MG',
@@ -185,7 +185,7 @@ export default {
     {
       name: 'Lagoa Santa',
       slug: 'lagoa-santa',
-      banner: 'cid.jpg',
+      banner: 'lagoa.png',
       groups: [
         {
           name: 'GRUPO ESCOTEIRO DO AR PETER W. LUND - 94/MG ',
@@ -199,7 +199,7 @@ export default {
     {
       name: 'Mateus Leme',
       slug: 'mateus-leme',
-      banner: 'cid.jpg',
+      banner: 'mateus-leme.png',
       groups: [
         {
           name: 'GRUPO ESCOTEIRO MOACIR JARDIM - 38/MG ',
@@ -213,7 +213,7 @@ export default {
     {
       name: 'Nova Lima',
       slug: 'nova-lima',
-      banner: 'cid.jpg',
+      banner: 'nova-lima.png',
       groups: [
         {
           name: 'GRUPO ESCOTEIRO EXPEDICIONÁRIO ASSUMPÇÃO - 13/MG',
@@ -227,7 +227,7 @@ export default {
     {
       name: 'Raposos',
       slug: 'raposos',
-      banner: 'cid.jpg',
+      banner: 'raposos.png',
       groups: [
         {
           name: 'GRUPO ESCOTEIRO RAPOSO - 65/MG',
@@ -241,7 +241,7 @@ export default {
     {
       name: 'Sabará',
       slug: 'sabara',
-      banner: 'cid.jpg',
+      banner: 'sabara.png',
       groups: [
         {
           name: 'GRUPO ESCOTEIRO BORBA GATO - 116/MG ',

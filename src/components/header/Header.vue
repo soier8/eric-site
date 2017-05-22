@@ -61,7 +61,7 @@ export default {
     width: 100%
     background: transparent
     nav
-      background: rgba(36, 34, 34, 0.5)
+      background: rgba(33, 54, 42, 0.502)
       align-items: center
       .nav-left
         .logo-item

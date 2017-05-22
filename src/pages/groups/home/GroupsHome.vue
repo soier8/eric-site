@@ -81,7 +81,7 @@
     .groups-banner
       background-blend-mode: multiply
       background-color: rgba(0, 0, 0, 0.42)
-      background-image: url('~assets/images/news-banner.jpg')
+      background-image: url('~assets/images/cidades/cid.jpeg')
       background-size: cover
       background-repeat: no-repeat
       background-position: 0 100%

@@ -3,8 +3,8 @@
     article.home-banner.hero
       article.hero-body.columns
         section.container.has-text-centered.column.is-7-desktop.is-offset-3-desktop.is-9-tablet.is-12-mobile
-          h3.is-3.subtitle "A criança não aprende o que os mais velhos dizem,
-          h3.is-3.subtitle mas o que eles fazem."
+          h3.is-3.subtitle O melhor meio para alcançar a felicidade
+          h3.is-3.subtitle é contribuir para a felicidade dos outros.
           h3.is-3.subtitle Baden Powell
       div.hero-foot
         breadcrumb
@@ -12,7 +12,7 @@
       div.columns.container.container-responsive
         div.column.is-7.columns
           div.column
-            h1.title.is-2 Notícias
+            h1.title.is-2 Notíciasa
             div.columns.align-items-center
               div.column.is-4.has-text-centered
                 figure.image.is-square
@@ -88,7 +88,7 @@
   import MoreButton from '../../components/buttons/MoreButton.vue'
   import SearchField from '../../components/input/SearchField.vue'
   import NewHighlight from '../../components/news/NewHighlight.vue'
-  import Shortcuts from '../../components/shortcuts/Shortcuts.vue'
+//  import Shortcuts from '../../components/shortcuts/Shortcuts.vue'
   import Breadcrumb from '../../components/breadcrumb/Breadcrumb.vue'
 //  import newsService from '../../services/news'
   import { getSeoTitle, getSeoMeta } from '../../services/seo'
@@ -101,7 +101,7 @@
       'more-button': MoreButton,
       'search-field': SearchField,
       'new-highlight': NewHighlight,
-      'shortcuts': Shortcuts,
+  //  'shortcuts': Shortcuts,
       'breadcrumb': Breadcrumb
     },
     head: {
@@ -149,13 +149,13 @@
   // HOME BANNER
   .home-banner
     background-blend-mode: multiply
-    background-color: rgba(0, 0, 0, 0.3)
+    background-color: rgba(42, 42, 67, 0.4)
     background-image: url('~assets/images/home-banner.jpg')
     background-size: cover
     background-repeat: no-repeat
     background-position: 0 100%
     .hero-body
-      padding-top: 12rem
+      padding-top: 18rem
       min-height: 25rem
       section.container
         text-align: left
@@ -192,7 +192,7 @@
   // PARALLAX SECTION
   .parallax
     background-blend-mode: multiply
-    background-color: rgba(18, 119, 126, 0.6)
+    background-color: rgba(0, 106, 80, 0.8)
     background-image: url('~assets/images/home-parallax.jpg')
     background-attachment: fixed
     background-position: center

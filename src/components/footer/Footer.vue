@@ -5,19 +5,17 @@
         a.nav-item.logo-item
           img(src="~assets/images/logo.png" alt="Logo")
       div.column.adress.justify-content-center.common-content.is-narrow
-        p Rua Mariano Procópio, 90 - mariano procópio
-        p Juiz de Fora - Minas Gerais
-        p Cep: 36.035-780
-        p (32) 3215-7674
+        p Avenida dos Andradas, 910. Centro
+        p Belo Horizonte - Minas Gerais
+        p Cep: 30.120-010
+        p Reuniões às quartas-feiras, às 19:30 - Mediante convocação
       div.column.email.justify-content-center.common-content
-        p escritorio@escoteirosmg.org.br
+        p distritometropolitano@escotismo.org
         p
           small Melhor visualizado no Google Chrome
       div.column.social.justify-content-center.common-content
         p
-          a.icon.social.padded-left(@click="trackClick('Twitter Link')" href="https://twitter.com/EscoteirosMG" target="BLANK")
-            i.fa.fa-twitter
-          a.icon.social(@click="trackClick('Facebook Link')" href="https://www.facebook.com/EscoteirosDeMinasGerais" target="BLANK")
+          a.icon.social(@click="trackClick('Facebook Link')" href="https://www.facebook.com/EscoteirosDistritoMetropolitanoMG" target="BLANK")
             i.fa.fa-facebook
     div.columns.footer-foot
       div.content.has-text-centered.container.column
@@ -49,7 +47,7 @@ export default {
   @import '~assets/sass/config.sass'
   footer
     padding: 0!important
-    background: $darken-blue !important
+    background: #c7010e !important
 
     *
       +mobile
@@ -98,10 +96,10 @@ export default {
       .icon.padded-left
         // padding-left: 1.3rem
     .footer-foot
-      background: #0d3a52
+      background: #a20000
       +desktop
         margin-top: 0
       p
-        color: #46aade
+        color: rgb(255, 172, 135)
         padding: 0.5rem
 </style>

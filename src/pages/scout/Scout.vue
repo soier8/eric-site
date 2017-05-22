@@ -33,11 +33,11 @@
 
 <script>
   import Breadcrumb from '../../components/breadcrumb/Breadcrumb.vue'
-  import Shortcuts from '../../components/shortcuts/Shortcuts.vue'
+//  import Shortcuts from '../../components/shortcuts/Shortcuts.vue'
 
   export default {
     components: {
-      'shortcuts': Shortcuts,
+   //   'shortcuts': Shortcuts,
       'breadcrumb': Breadcrumb
     },
     name: 'scout',
