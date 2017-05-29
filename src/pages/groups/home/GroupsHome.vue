@@ -45,7 +45,7 @@
     },
     methods: {
       getCityBanner (city) {
-        return require(`../../../assets/images/cidades/${city.banner}`)
+        return require(`../../../assets/images/cidades/min/${city.min_banner}`)
       }
     },
     data () {

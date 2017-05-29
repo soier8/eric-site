@@ -9,7 +9,7 @@
         p Belo Horizonte - Minas Gerais
         p Cep: 30.120-010
         p Reuniões às quartas-feiras, às 19:30 - Mediante convocação
-      div.column.email.justify-content-center.common-content
+      div.column.email.justify-content-center.email-content
         p distritometropolitano@escotismo.org
         p
           small Melhor visualizado no Google Chrome
@@ -91,8 +91,11 @@ export default {
       text-transform: uppercase
       padding-top: 2rem
       align-self: flex-start
+    .email-content
+      padding: 2rem
+      align-self: flex-start
     .adress
-      color: #83dae0
+      color: #fff
     .email, .social
       color: white
     .social

@@ -3,7 +3,8 @@ export default {
     {
       name: 'Belo Horizonte',
       slug: 'belo-horizonte',
-      banner: 'bh.png',
+      banner: 'bh.jpg',
+      min_banner: 'bh.jpeg',
       groups: [
         {
           name: 'GE DO AR PADRE EUSTÁQUIO - 07/MG ',
@@ -143,7 +144,8 @@ export default {
     {
       name: 'Betim',
       slug: 'betim',
-      banner: 'betim.png',
+      banner: 'betim.jpg',
+      min_banner: 'betim.jpeg',
       groups: [
         {
           name: 'GRUPO ESCOTEIRO OLAVE SAINT CLAIR - 83/MG ',
@@ -157,7 +159,8 @@ export default {
     {
       name: 'Conceição do Mato Dentro',
       slug: 'conceicao-mato-dentro',
-      banner: 'concei.png',
+      banner: 'concei.jpg',
+      min_banner: 'concei.jpeg',
       groups: [
         {
           name: 'GRUPO ESCOTEIRO MATO DENTRO - 177/MG',
@@ -171,7 +174,8 @@ export default {
     {
       name: 'Contagem',
       slug: 'contagem',
-      banner: 'contagem.png',
+      banner: 'contagem.jpg',
+      min_banner: 'contagem.jpeg',
       groups: [
         {
           name: 'GRUPO ESCOTEIRO RUI BARBOSA - 68/MG',
@@ -185,7 +189,8 @@ export default {
     {
       name: 'Lagoa Santa',
       slug: 'lagoa-santa',
-      banner: 'lagoa.png',
+      banner: 'lagoa.jpg',
+      min_banner: 'lagoa.jpeg',
       groups: [
         {
           name: 'GRUPO ESCOTEIRO DO AR PETER W. LUND - 94/MG ',
@@ -199,13 +204,14 @@ export default {
     {
       name: 'Mateus Leme',
       slug: 'mateus-leme',
-      banner: 'mateus-leme.png',
+      banner: 'mateus-leme.jpg',
+      min_banner: 'mateus-leme.jpeg',
       groups: [
         {
           name: 'GRUPO ESCOTEIRO MOACIR JARDIM - 38/MG ',
           meetings: 'Reuniões Sábado a tarde',
           banner: 'mateus_leme/3-8.jpg',
-          address: 'R GUARACIABA PASSOS, 528 - CENTRO',
+          address: 'Rua Dr. Tomás de Andrade - N° 498 - Centro Mateus Leme/MG ',
           phone: 'Telefone: (31) 3535-1628.'
         }
       ]
@@ -213,7 +219,8 @@ export default {
     {
       name: 'Nova Lima',
       slug: 'nova-lima',
-      banner: 'nova-lima.png',
+      banner: 'nova-lima.jpg',
+      min_banner: 'nova-lima.jpeg',
       groups: [
         {
           name: 'GRUPO ESCOTEIRO EXPEDICIONÁRIO ASSUMPÇÃO - 13/MG',
@@ -227,7 +234,8 @@ export default {
     {
       name: 'Raposos',
       slug: 'raposos',
-      banner: 'raposos.png',
+      banner: 'raposos.jpg',
+      min_banner: 'raposos.jpeg',
       groups: [
         {
           name: 'GRUPO ESCOTEIRO RAPOSO - 65/MG',
@@ -241,7 +249,8 @@ export default {
     {
       name: 'Sabará',
       slug: 'sabara',
-      banner: 'sabara.png',
+      banner: 'sabara.jpg',
+      min_banner: 'sabara.jpeg',
       groups: [
         {
           name: 'GRUPO ESCOTEIRO BORBA GATO - 116/MG ',

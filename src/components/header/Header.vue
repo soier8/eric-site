@@ -23,8 +23,8 @@
             router-link.is-tab.nav-item(:to="{name: 'institutionalHome'}") Institucional
             router-link.is-tab.nav-item(:to="{name: 'newsList'}") Notícias
             router-link.is-tab.nav-item(:to="{name: 'scoutHome'}") Escotismo
-            // router-link.is-tab.nav-item(:to="{name: 'documentsHome'}") Documentos
-            // router-link.is-tab.nav-item(:to="{name: 'formsHome'}") Solicitações
+            router-link.is-tab.nav-item(:to="{name: 'groupsHome'}") Grupos Escoteiros
+            router-link.is-tab.nav-item(:to="{name: 'documentsHome'}") Documentos
           a.is-hidden-desktop.close-menu
             span.icon(@click="toggleMenuVisibility()")
               i.fa.fa-times
