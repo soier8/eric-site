@@ -81,7 +81,7 @@
     //-               p Metropolitano
     //-               p 21 a 22 fevereiro 2017
     //-               span.more-icon: | +
-    shortcuts
+    //- shortcuts
 </template>
 
 <script>
@@ -108,8 +108,7 @@
       title: getSeoTitle('Home'),
       meta: () => {
         return getSeoMeta({
-          title: 'Home - Distrito Metropolitano',
-          description: 'Site Oficial do Distrito Metropolitano'
+          title: 'Home - Distrito Metropolitano de Minas Gerais'
         })
       }
     },
@@ -149,7 +148,7 @@
   // HOME BANNER
   .home-banner
     background-blend-mode: multiply
-    background-color: rgba(42, 42, 67, 0.4)
+    background-color: rgba(42, 42, 67, 0.75)
     background-image: url('~assets/images/home-banner.jpg')
     background-size: cover
     background-repeat: no-repeat
