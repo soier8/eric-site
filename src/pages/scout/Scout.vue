@@ -28,7 +28,7 @@
           div.column.is-9.content-column
             transition(name="fade")
               router-view
-    shortcuts
+    //- shortcuts
 </template>
 
 <script>

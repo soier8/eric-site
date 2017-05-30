@@ -56,8 +56,8 @@
       title: getSeoTitle('Escotismo'),
       meta: () => {
         return getSeoMeta({
-          title: 'Escotismo - Escoteiros de Minas',
-          description: 'Conheça o que é o Escotismo e o que fazemos - Escoteiros de Minas Gerais'
+          title: 'Escotismo - Distrito Metropolitano',
+          description: 'Conheça o que é o Escotismo e o que fazemos - Distrito Metropolitano de MG'
         })
       }
     },

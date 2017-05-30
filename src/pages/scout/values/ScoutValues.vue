@@ -30,8 +30,8 @@ div.scout-values
       title: getSeoTitle('Valores'),
       meta: () => {
         return getSeoMeta({
-          title: 'Valores - Escoteiros de Minas',
-          description: 'Conheça o que é o Escotismo e o que fazemos - Escoteiros de Minas Gerais'
+          title: 'Valores - Distrito Metropolitano',
+          description: 'Conheça o que é o Escotismo e o que fazemos - Distrito Metropolitano de MG'
         })
       }
     },
