@@ -179,9 +179,9 @@ export default {
       groups: [
         {
           name: 'GRUPO ESCOTEIRO RUI BARBOSA - 68/MG',
-          meetings: 'Reuniões sábado a tarde',
+          meetings: 'Reuniões aos sábados das 14:30 às 17:30',
           banner: 'contagem/68.jpg',
-          address: 'RUA MADRE MARGHERIDA FONTANAROSA,271 - ELDORADO',
+          address: 'Escola Estadual Helena Guerra - Rua  Norberto Mayer, S/N Eldorado',
           phone: 'Telefone: (31) 9431-8035'
         }
       ]
