@@ -39,7 +39,8 @@
       meta () {
         return getSeoMeta({
           title: 'Grupos Escoteiros - Distrito Metropolitano',
-          description: 'Confira os grupos escoteiros do Distrito Metropolitano.'
+          description: 'Confira os grupos escoteiros do Distrito Metropolitano Escoteiro de MG.',
+          image: require(`../../../assets/images/cidades/cid.jpeg`)
         })
       }
     },
@@ -95,5 +96,5 @@
           color: white
           text-transform: uppercase
           font-family: 'Roboto'
-          font-weight: 300  
+          font-weight: 300
 </style>

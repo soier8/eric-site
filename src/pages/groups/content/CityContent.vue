@@ -39,9 +39,12 @@
         return getSeoTitle(this.city.name)
       },
       meta () {
+        let img = (this.city.banner && this.city.banner.length) ? require(`../../../assets/images/cidades/${this.city.banner}`) : require(`../../../assets/images/cidades/cid.jpeg`)
         return getSeoMeta({
-          title: this.city.name,
-          description: `Descubra os grupos escoteiros de ${this.city.name}`
+          title: `Grupos de ${this.city.name} - Distrito Metropolitano`,
+          description: `Descubra os grupos escoteiros de ${this.city.name}`,
+          image: img
+          // image: require(`../../../assets/images/cidades/${this.city.banner}`)
         })
       }
     },
