@@ -62,6 +62,7 @@ export default {
     background: transparent
     nav
       background: rgba(33, 54, 42, 0.502)
+      border-bottom: 1px solid $primary
       align-items: center
       .nav-left
         .logo-item

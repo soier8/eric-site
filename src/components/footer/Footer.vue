@@ -68,7 +68,7 @@ export default {
 
     &::before
       position: relative
-      top: -2rem
+      top: -1rem
       display: block
       height: 2rem
       width: 100%
