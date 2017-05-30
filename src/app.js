@@ -47,7 +47,7 @@ Vue.use(VueRouter)
 Vue.use(SocialSharing)
 Vue.use(VueHead, {
   separator: ' | ',
-  complement: 'Distrito Metropolitano'
+  complement: 'Distrito Metropolitano de Minas Gerais'
 })
 
 Vue.filter('stripped', value => {
@@ -95,7 +95,7 @@ router.afterEach((to, from) => {
   }, 1500)
 })
 
-const id = 'UA-96528348-1'
+const id = 'UA-100147891-1'
 Vue.use(VueAnalytics, { id, router })
 
 const toast = function ({title, message, type, timeout, cb, show}) {

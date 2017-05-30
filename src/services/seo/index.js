@@ -8,7 +8,7 @@ const getSeoMeta = (params) => {
   return [
     {
       n: 'description',
-      c: params.description || 'Site Oficial daz Região Escoteira de Minas Gerais - Escoteiros do Brasil'
+      c: params.description || 'Site Oficial do Distrito Metropolitano Escoteiro de Minas Gerais - Escoteiros do Brasil. Conheça as atividades, grupos escoteiros, o que é o escotismo.'
     },
     {
       p: 'og:type',
@@ -20,11 +20,11 @@ const getSeoMeta = (params) => {
     },
     {
       p: 'og:site_name',
-      c: 'Escoteiros de Minas'
+      c: 'Escoteiros do Distrito Metropolitano MG'
     },
     {
       p: 'twitter:site',
-      c: 'Escoteiros de Minas'
+      c: 'Escoteiros do Distrito Metropolitano MG'
     },
     {
       p: 'twitter:url',
@@ -36,19 +36,19 @@ const getSeoMeta = (params) => {
     },
     {
       p: 'twitter:title',
-      c: params.title || 'Escoteiros de Minas'
+      c: params.title || 'Escoteiros do Distrito Metropolitano MG'
     },
     {
       p: 'og:title',
-      c: params.title || 'Escoteiros de Minas'
+      c: params.title || 'Escoteiros do Distrito Metropolitano MG'
     },
     {
       p: 'twitter:description',
-      c: params.description || 'Site Oficial da Região Escoteira de Minas Gerais - Escoteiros do Brasil'
+      c: params.description || 'Site Oficial do Distrito Metropolitano Escoteiro de Minas Gerais - Escoteiros do Brasil. Conheça as atividades, grupos escoteiros, o que é o escotismo.'
     },
     {
       p: 'og:description',
-      c: params.description || 'Site Oficial da Região Escoteira de Minas Gerais - Escoteiros do Brasil'
+      c: params.description || 'Site Oficial do Distrito Metropolitano Escoteiro de Minas Gerais - Escoteiros do Brasil. Conheça as atividades, grupos escoteiros, o que é o escotismo.'
     },
     {
       p: 'twitter:image',
