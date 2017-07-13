@@ -8,29 +8,32 @@
         p Avenida dos Andradas, 910. Centro
         p Belo Horizonte - Minas Gerais
         p Cep: 30.120-010
-        p Reuniões às quartas-feiras, às 19:30 - Mediante convocação
+        p Reuniões às quartas-feiras, às 19:30 #[br] Mediante convocação
       div.column.email.justify-content-center.email-content
-        p distritometropolitano@escotismo.org
+        p
+          a(href="mailto:distritometropolitano@escotismo.org") distritometropolitano@escotismo.org
         p
           small Melhor visualizado no Google Chrome
       div.column.social.justify-content-center.common-content
         p
           a.icon.social(@click="trackClick('Facebook Link')" href="https://www.facebook.com/EscoteirosDistritoMetropolitanoMG" target="BLANK")
             i.fa.fa-facebook
-      div.map-footer
-        br
-        iframe(width="200" height="200" frameborder="0" style="border:0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6308.485435511285!2d-43.93573577801777!3d-19.922386965196353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa699f0193c4b35%3A0x2c36f2de6826e002!2sAv.+dos+Andradas%2C+910+-+Centro%2C+Belo+Horizonte+-+MG!5e0!3m2!1spt-BR!2sbr!4v1495489097013" allowfullscreen)        
+          a.icon.social(@click="trackClick('Maps Link')" href="https://goo.gl/maps/bmzLvpSu1HJ2" target="BLANK")
+            i.fa.fa-map-marker
+      //- div.map-footer
+      //-   br
+      //-   iframe(width="310" height="120" frameborder="0" style="border:0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6308.485435511285!2d-43.93573577801777!3d-19.922386965196353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa699f0193c4b35%3A0x2c36f2de6826e002!2sAv.+dos+Andradas%2C+910+-+Centro%2C+Belo+Horizonte+-+MG!5e0!3m2!1spt-BR!2sbr!4v1495489097013" allowfullscreen)
 
     div.columns.footer-foot
       div.content.has-text-centered.container.column
         p.
-          Copyright 2017 © ESCOTEIROS DE MINAS - Todos os direitos reservados #[br]
+          Copyright 2017 © ESCOTEIROS DO DISTRITO METROPOLITANO MG - Todos os direitos reservados #[br]
           #[small Desenvolvido por #[a(@click="trackClick('Developer Link')" href="http://gfviegas.com" target="BLANK") Gustavo Viegas]]
 </template>
 
 <script>
 export default {
-  name: 'header',
+  name: 'footer',
   data: () => {
     return {
       menuShown: false
@@ -65,7 +68,7 @@ export default {
 
     &::before
       position: relative
-      top: -1rem
+      top: -2rem
       display: block
       height: 2rem
       width: 100%
@@ -94,6 +97,8 @@ export default {
     .email-content
       padding: 2rem
       align-self: flex-start
+      a
+        color: white
     .adress
       color: #fff
     .email, .social
@@ -109,6 +114,8 @@ export default {
       p
         color: rgb(255, 172, 135)
         padding: 0.5rem
+        a
+          color: rgb(255, 228, 55)
 
- 
+
 </style>
