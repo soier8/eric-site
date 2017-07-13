@@ -18,7 +18,6 @@ import { routes as ContactRoutes } from './pages/contact'
 import { routes as DocumentsRoutes } from './pages/documents'
 import { routes as GroupsRoutes } from './pages/groups'
 
-
 import OneSignal from './services/onesignal'
 
 import VueRouter from 'vue-router'
@@ -67,12 +66,13 @@ const routes = [
     component: Home
   },
 
+  {...GroupsRoutes},
   {...InstitutionalRoutes},
   {...NewsRoutes},
   {...ScoutRoutes},
   {...ContactRoutes},
   {...DocumentsRoutes},
-  
+
   // Redirect to Home
   {
     path: '*',

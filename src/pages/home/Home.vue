@@ -87,10 +87,9 @@
 <script>
   import MoreButton from '../../components/buttons/MoreButton.vue'
   import SearchField from '../../components/input/SearchField.vue'
-//  import NewHighlight from '../../components/news/NewHighlight.vue'
-//  import Shortcuts from '../../components/shortcuts/Shortcuts.vue'
+  import NewHighlight from '../../components/news/NewHighlight.vue'
   import Breadcrumb from '../../components/breadcrumb/Breadcrumb.vue'
-//  import newsService from '../../services/news'
+  import newsService from '../../services/news'
   import { getSeoTitle, getSeoMeta } from '../../services/seo'
   import OneSignal from '../../services/onesignal'
 
@@ -100,8 +99,7 @@
     components: {
       'more-button': MoreButton,
       'search-field': SearchField,
-  //    'new-highlight': NewHighlight,
-  //  'shortcuts': Shortcuts,
+      'new-highlight': NewHighlight,
       'breadcrumb': Breadcrumb
     },
     head: {
@@ -118,7 +116,7 @@
         news: [],
         msg: 'Stuff'
       }
-    }
+    },
     created () {
       const vm = this
       this.$on('okHead', () => {
