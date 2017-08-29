@@ -1,15 +1,20 @@
 import Institutional from './Institutional.vue'
 import InstitutionalHome from './home/InstitutionalHome.vue'
 
-import RegionalBoard from './regional-board/RegionalBoard.vue'
-import RegionalCoordinators from './regional-coordinators/RegionalCoordinators.vue'
-import Districts from './districts/Districts.vue'
-import FiscalCommittee from './fiscal-committee/FiscalCommittee.vue'
-import YoungLeaders from './young-leaders/YoungLeaders.vue'
-import EmeritusTrainers from './emeritus-trainers/EmeritusTrainers.vue'
-import Ombudsman from './ombudsman/Ombudsman.vue'
-import Ethics from './ethics/Ethics.vue'
-import RegionalOffice from './regional-office/RegionalOffice.vue'
+import direDistri from './direDistri/direDistri.vue'
+import finanAssist from './finanAssist/finanAssist.vue'
+import admAssist from './admAssist/admAssist.vue'
+import assistEtic from './assistEtic/assistEtic.vue'
+import adultGest from './adultGest/adultGest.vue'
+import formAssist from './formAssist/formAssist.vue'
+import assistHuman from './assistHuman/assistHuman.vue'
+import comunAssist from './comunAssist/comunAssist.vue'
+import assistPione from './assistPione/assistPione.vue'
+import assistEscoteiro from './assistEscoteiro/assistEscoteiro.vue'
+import radAssist from './radAssist/radAssist.vue'
+import assistSen from './assistSen/assistSen.vue'
+import assistLob from './assistLob/assistLob.vue'
+import planProg from './planProg/planProg.vue'
 
 const routes = {
   path: '/institucional',
@@ -19,81 +24,121 @@ const routes = {
       path: '',
       name: 'institutionalHome',
       meta: {
-        breadcrumb: 'Institucional / Home'
+        breadcrumb: 'Institucional - Distrito Metropolitano de Minas Gerais / Home'
       },
       component: InstitutionalHome
     },
     {
-      path: 'diretoria-regional',
-      name: 'regionalBoard',
+      path: 'diretor-distrital',
+      name: 'direDistri',
       meta: {
-        breadcrumb: 'Institucional / Diretoria Regional'
+        breadcrumb: 'Institucional / Diretor Distrital'
       },
-      component: RegionalBoard
+      component: direDistri
     },
     {
-      path: 'coordenadores-regional',
-      name: 'regionalCoordinators',
+      path: 'assistentes-distritais-financeiro',
+      name: 'financCoord',
       meta: {
-        breadcrumb: 'Institucional / Coordenadores Regionais'
+        breadcrumb: 'Institucional / Assistente Financeiro'
       },
-      component: RegionalCoordinators
+      component: finanAssist
     },
     {
-      path: 'diretores-distritais',
-      name: 'districts',
+      path: 'assistente-administrativo',
+      name: 'assistAdmn',
       meta: {
-        breadcrumb: 'Institucional / Diretores Distritais'
+        breadcrumb: 'Institucional / Assistentes Administrativos'
       },
-      component: Districts
+      component: admAssist
     },
     {
-      path: 'comissao-fiscal',
-      name: 'fiscalCommittee',
+      path: 'assistente-de-etica',
+      name: 'eticAssit',
       meta: {
-        breadcrumb: 'Institucional / Comissão Fiscal'
+        breadcrumb: 'Institucional / Assistente de Etica e Disciplina'
       },
-      component: FiscalCommittee
+      component: assistEtic
     },
     {
-      path: 'jovens-lideres',
-      name: 'youngLeaders',
+      path: 'assistente-gestao-adultos',
+      name: 'gestAdult',
       meta: {
-        breadcrumb: 'Institucional / Jovens Líderes'
+        breadcrumb: 'Institucional / Assistente De Gestão de Adultos'
       },
-      component: YoungLeaders
+      component: adultGest
     },
     {
-      path: 'formadores-emeritos',
-      name: 'emeritusTrainers',
+      path: 'assistente-formacao-adultos',
+      name: 'assitForma',
       meta: {
-        breadcrumb: 'Institucional / Formadores Eméritos'
+        breadcrumb: 'Institucional / Assistentes de Formaçao de Adultos'
       },
-      component: EmeritusTrainers
+      component: formAssist
     },
     {
-      path: 'ouvidoria',
-      name: 'ombudsman',
+      path: 'assistente-mobilizacao-humanitaria',
+      name: 'humaniAssist',
       meta: {
-        breadcrumb: 'Institucional / Ouvidoria'
+        breadcrumb: 'Institucional / Assistente de Mobilização Humanitária'
       },
-      component: Ombudsman
+      component: assistHuman
     },
     {
-      path: 'comissao-de-etica',
-      name: 'ethics',
+      path: 'assistente-de-comunicacao',
+      name: 'assistComunic',
       meta: {
-        breadcrumb: 'Institucional / Comissão de Ética e Disciplina'
+        breadcrumb: 'Institucional / Assistentes de Comunicação e Imagem'
       },
-      component: Ethics
+      component: comunAssist
     },
     {
-      path: 'escritorio-regional',
-      name: 'regionalOffice',
+      path: 'assistente-radio',
+      name: 'assistRad',
       meta: {
-        breadcrumb: 'Institucional / Escritório Regional'
+        breadcrumb: 'Institucional / Assistente de Radio-escotismo'
       },
-      component: RegionalOffice
+      component: radAssist
+    },
+    {
+      path: 'assistente-planejamento-programa',
+      name: 'assistPlan',
+      meta: {
+        breadcrumb: 'Institucional / Assistente de Planejamento e Programa'
+      },
+      component: planProg
+    },
+    {
+      path: 'assistente-lobo',
+      name: 'assistLob',
+      meta: {
+        breadcrumb: 'Institucional / Assistente do Ramo Lobinho'
+      },
+      component: assistLob
+    },
+    {
+      path: 'assistente-escoteiro',
+      name: 'assistEsc',
+      meta: {
+        breadcrumb: 'Institucional / Assistente do Ramo Escoteiro'
+      },
+      component: assistEscoteiro
+    },
+    {
+      path: 'assistente-senior',
+      name: 'assistSen',
+      meta: {
+        breadcrumb: 'Institucional / Assistente do Ramo Sênior'
+      },
+      component: assistSen
+    },
+    {
+      path: 'assistente-pioneiro',
+      name: 'assistPio',
+      meta: {
+        breadcrumb: 'Institucional / Assistente do Ramo Pioneiro'
+      },
+      component: assistPione
     }
   ]
 }

@@ -35,7 +35,7 @@
   .institutional-banner
     background-blend-mode: multiply
     background-color: rgba(0, 0, 0, 0.3)
-    background-image: url('~assets/images/institutional-banner.jpg')
+    background-image: url('~assets/images/institutional-banner.jpeg')
     background-size: cover
     background-repeat: no-repeat
     background-position: 0 50%

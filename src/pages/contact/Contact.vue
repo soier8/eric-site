@@ -3,7 +3,6 @@
     div.contact-banner.hero
       article.hero-body.columns
         section.container.has-text-centered.column.is-7-desktop.is-offset-3-desktop.is-9-tablet.is-12-mobile
-          h1.is-2.subtitle Contato
       div.hero-foot
         breadcrumb
     div.scout-container
@@ -53,7 +52,7 @@
     background-position: 0 60%
     .hero-body
       padding-top: 12rem
-      min-height: 25rem
+      min-height: 29rem
       section.container
         text-align: left
       .subtitle

@@ -3,124 +3,191 @@
     div.container.container-responsive.main-container
       h2.title.is-2 Institucional
       h4.subtitle.is-4 Conheça a instituição e seus orgãos
+      br
       div.columns.is-multiline
         div.column.is-4
           div.card
             div.card-image
-              router-link(:to="{name: 'regionalBoard'}")
+              router-link(:to="{name: 'direDistri'}")
                 //- figure.image.is-4by3
                 //-   img(src="http://bulma.io/images/placeholders/1280x960.png")
             div.card-content
               div.media
                 div.media-content
                   h4.title.is-4
-                    router-link(:to="{name: 'regionalBoard'}") Diretoria Regional
+                    router-link(:to="{name: 'direDistri'}") Diretor Distrital
               div.content
-                | A Diretoria Regional é o órgão executivo da Região, com mandato de três anos. É composta por cinco membros, eleitos pela Assembléia Regional, sendo um deles o Diretor Presidente, que coordena, dirige e representa a Região.
+                | 
         div.column.is-4
           div.card
             div.card-image
-              router-link(:to="{name: 'regionalCoordinators'}")
+              router-link(:to="{name: 'financCoord'}")
                 //- figure.image.is-4by3
                 //-   img(src="http://bulma.io/images/placeholders/1280x960.png")
             div.card-content
               div.media
                 div.media-content
                   h4.title.is-4
-                    router-link(:to="{name: 'regionalCoordinators'}") Coordenadores Regionais
+                    router-link(:to="{name: 'financCoord'}") Assistente Financeiro Distrital
               div.content
-                | Os coordenadores regionais são nomeados pela Diretoria Regional, atuando em diversas áreas da administração.
+                | 
         div.column.is-4
           div.card
             div.card-image
-              router-link(:to="{name: 'districts'}")
+              router-link(:to="{name: 'assistAdmn'}")
                 //- figure.image.is-4by3
                 //-   img(src="http://bulma.io/images/placeholders/1280x960.png")
             div.card-content
               div.media
                 div.media-content
                   h4.title.is-4
-                    router-link(:to="{name: 'districts'}") Diretores Distritais
+                    router-link(:to="{name: 'assistAdmn'}") Assistentes Administrativos
               div.content
-                | A Região Escoteira de Minas Gerais possui 13 distritos, que possuem seus respectivos diretores e equipes.
+                | 
         div.column.is-4
           div.card
             div.card-image
-              router-link(:to="{name: 'fiscalCommittee'}")
+              router-link(:to="{name: 'eticAssit'}")
                 //- figure.image.is-4by3
                 //-   img(src="http://bulma.io/images/placeholders/1280x960.png")
             div.card-content
               div.media
                 div.media-content
                   h4.title.is-4
-                    router-link(:to="{name: 'fiscalCommittee'}") Comissão Fiscal
+                    router-link(:to="{name: 'eticAssit'}") Assistente de Ética e Disciplina
               div.content
-                | A Comissão Fiscal Regional é o órgão de fiscalização e orientação da gestão patrimonial e financeira regional, composta por três membros titulares, sendo um eleito anualmente, por eles próprios, seu Presidente, e por até três suplente.
+                | 
         div.column.is-4
           div.card
             div.card-image
-              router-link(:to="{name: 'ethics'}")
+              router-link(:to="{name: 'gestAdult'}")
                 //- figure.image.is-4by3
                 //-   img(src="http://bulma.io/images/placeholders/1280x960.png")
             div.card-content
               div.media
                 div.media-content
                   h4.title.is-4
-                    router-link(:to="{name: 'ethics'}") Comissão de Ética e Disciplina
+                    router-link(:to="{name: 'gestAdult'}") Assistente de Gestão de Adultos Distrital
               div.content
-                | Conheça a Comissão Regional de Ética e Disciplina.
+                | 
         div.column.is-4
           div.card
             div.card-image
-              router-link(:to="{name: 'youngLeaders'}")
+              router-link(:to="{name: 'assitForma'}")
                 //- figure.image.is-4by3
                 //-   img(src="http://bulma.io/images/placeholders/1280x960.png")
             div.card-content
               div.media
                 div.media-content
                   h4.title.is-4
-                    router-link(:to="{name: 'youngLeaders'}") Jovens Líderes
+                    router-link(:to="{name: 'assitForma'}") Assistentes de Formaçao de Adultos
               div.content
-                | O Núcleo Regional de Jovens Líderes é a estrutura gestora da Rede de Jovens em nível regional, sendo composto por 4 jovens escolhidos por seus pares durante o Fórum Regional, esses jovens trabalham coordenando e, principalmente, animando as diversas iniciativas juvenis e também fazem a representação juvenil dentro das estruturas do nível regional.
+                | 
         div.column.is-4
           div.card
             div.card-image
-              router-link(:to="{name: 'emeritusTrainers'}")
+              router-link(:to="{name: 'humaniAssist'}")
                 //- figure.image.is-4by3
                 //-   img(src="http://bulma.io/images/placeholders/1280x960.png")
             div.card-content
               div.media
                 div.media-content
                   h4.title.is-4
-                    router-link(:to="{name: 'emeritusTrainers'}") Formadores Eméritos
+                    router-link(:to="{name: 'humaniAssist'}") Assistente de Mobilização Humanitária
               div.content
-                | O adulto que tiver uma atuação ininterrupta por 20 anos ou descontínua por 30 anos, na área de Gestão de Adultos na função de Diretor de Curso, poderá receber o título de “Formador Emérito”.
+                | 
         div.column.is-4
           div.card
             div.card-image
-              router-link(:to="{name: 'ombudsman'}")
+              router-link(:to="{name: 'assistComunic'}")
                 //- figure.image.is-4by3
                 //-   img(src="http://bulma.io/images/placeholders/1280x960.png")
             div.card-content
               div.media
                 div.media-content
                   h4.title.is-4
-                    router-link(:to="{name: 'ombudsman'}") Ouvidoria
+                    router-link(:to="{name: 'assistComunic'}") Assistentes de Comunicação e Imagem
               div.content
-                | Sugestões, avaliações, críticas e reclamações sobre qualquer fornecimento de serviços e/ou produtos por parte desta Unidade Escoteira Regional por meio de seu Escritório Regional e Loja Escoteira
+                | 
         div.column.is-4
           div.card
             div.card-image
-              router-link(:to="{name: 'regionalOffice'}")
+              router-link(:to="{name: 'assistRad'}")
                 //- figure.image.is-4by3
                 //-   img(src="http://bulma.io/images/placeholders/1280x960.png")
             div.card-content
               div.media
                 div.media-content
                   h4.title.is-4
-                    router-link(:to="{name: 'regionalOffice'}") Escritorio Regional
+                    router-link(:to="{name: 'assistRad'}") Assistente de Radio-escotismo
               div.content
-                | O Serviço Profissional Escoteiro visa a dar apoio a tarefa junto a Diretoria Regional bem como aos Grupos Escoteiros da Região de Minas Gerais.
+                | 
+        div.column.is-4
+          div.card
+            div.card-image
+              router-link(:to="{name: 'assistPlan'}")
+                //- figure.image.is-4by3
+                //-   img(src="http://bulma.io/images/placeholders/1280x960.png")
+            div.card-content
+              div.media
+                div.media-content
+                  h4.title.is-4
+                    router-link(:to="{name: 'assistPlan'}") Assistente de Planejamento e Programa
+              div.content
+                | 
+        div.column.is-4
+          div.card
+            div.card-image
+              router-link(:to="{name: 'assistLob'}")
+                //- figure.image.is-4by3
+                //-   img(src="http://bulma.io/images/placeholders/1280x960.png")
+            div.card-content
+              div.media
+                div.media-content
+                  h4.title.is-4
+                    router-link(:to="{name: 'assistLob'}") Assistente do Ramo Lobinho
+              div.content
+                | 
+        div.column.is-4
+          div.card
+            div.card-image
+              router-link(:to="{name: 'assistEsc'}")
+                //- figure.image.is-4by3
+                //-   img(src="http://bulma.io/images/placeholders/1280x960.png")
+            div.card-content
+              div.media
+                div.media-content
+                  h4.title.is-4
+                    router-link(:to="{name: 'assistEsc'}") Assistente do Ramo Escoteiro
+              div.content
+                | 
+        div.column.is-4
+          div.card
+            div.card-image
+              router-link(:to="{name: 'assistSen'}")
+                //- figure.image.is-4by3
+                //-   img(src="http://bulma.io/images/placeholders/1280x960.png")
+            div.card-content
+              div.media
+                div.media-content
+                  h4.title.is-4
+                    router-link(:to="{name: 'assistSen'}") Assistente do Ramo Sênior
+              div.content
+                | 
+        div.column.is-4
+          div.card
+            div.card-image
+              router-link(:to="{name: 'assistPio'}")
+                //- figure.image.is-4by3
+                //-   img(src="http://bulma.io/images/placeholders/1280x960.png")
+            div.card-content
+              div.media
+                div.media-content
+                  h4.title.is-4
+                    router-link(:to="{name: 'assistPio'}") Assistente do Ramo Pioneiro
+              div.content
+                |                                 
+
 
     //- #[router-link(exact v-bind:to="{name: 'regionalBoard'}")  Diretoria Regional]
     br
@@ -134,7 +201,7 @@
       title: getSeoTitle('Institucional'),
       meta: () => {
         return getSeoMeta({
-          description: 'Conheça a instituição Escoteira - Escoteiros de Minas Gerais'
+          description: 'Conheça a instituição Escoteira - Distrito Metropolitano de Minas Gerais'
         })
       }
     },

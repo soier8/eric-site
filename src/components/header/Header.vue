@@ -16,7 +16,7 @@
             router-link.nav-item(:to="{name: 'contactHome'}") Contato
             a.nav-item(href="http://sigue.escoteiros.org.br/siguejovem/" target="BLANK") Meu Sigue
             a.nav-item(href="http://sigue.escoteiros.org.br/sigue/" target="BLANK") Sigue Administrativo
-            a.nav-item(href="http://webmail.escoteirosmg.org.br/" target="BLANK") Webmail
+            a.nav-item(href="https://webmail-seguro.com.br/escotismo.org/" target="BLANK") Webmail
             a.nav-item(href="http://www.escoteirocomorgulho.com.br/" target="BLANK") Seja Escoteiro
           div.menu-custom
             router-link.is-tab.nav-item(exact v-bind:to="{name: 'home'}") Home

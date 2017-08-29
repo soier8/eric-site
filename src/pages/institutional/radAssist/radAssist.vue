@@ -1,28 +1,17 @@
 <template lang="pug">
   div.regional-office
     div.container.container-responsive.main-container
-      h2.title.is-2 Serviço Profissional Escoteiro
-      h5.subtitle.is-5 O Serviço Profissional Escoteiro visa a dar apoio a tarefa junto a Diretoria Regional bem como aos Grupos Escoteiros da Região de Minas Gerais.
+      h2.title.is-2 Assistente de Radio-escotismo
+      h5.subtitle.is-5 Conheça o Assistente de Radio-escotismo do Distrito Metropolitano de Minas Gerais
       br
-      h3.title.is-3 Horário de Funcionamento
-      div.content
-        p De Segunda à Sexta-feira
-        ul
-          li 08:00h às 11:30h
-          li 13:00h às 18:00h
-      br
-      h3.title.is-3 Funcionários e Prestadores de Serviço
       div.columns.is-multiline
         div.column.is-4
           div.card
             div.card-content
               div.media
                 div.media-content
-                  h4.title.is-4 Michelle Silverio de Castro
-              div.content
-                p Assistente Administrativo - Escritório Regional e Loja Escoteira Regional
-                p Telefones: #[a(href="tel:3232157674") (32) 3215 7674] / #[a(href="tel:3232150615") (32) 3215 0615]
-                p Emails: #[a(href="mailto:escritorio@escoteirosmg.org.br") escritorio@escoteirosmg.org.br] / #[a(href="mailto:loja@escoteirosmg.org.br") loja@escoteirosmg.org.br]
+                  h4.title.is-4  Mario Pimienta (7º)
+                  
 </template>
 
 <script>
@@ -30,10 +19,10 @@
 
   export default {
     head: {
-      title: getSeoTitle('Escritório Regional'),
+      title: getSeoTitle('Assistente de Radio-escotismo'),
       meta: () => {
         return getSeoMeta({
-          description: 'Conheça o Escritório Regionaal dos Escoteiros de Minas Gerais'
+          description: 'Conheça o Assistente de Radio-escotismo do Distrito Metropolitano de Minas Gerais'
         })
       },
       created () {

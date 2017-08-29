@@ -23,8 +23,8 @@ var devMiddleware = require('webpack-dev-middleware')(compiler, {
   publicPath: webpackConfig.output.publicPath,
   quiet: true,
   watchOptions: {
-    ignore: /node_modules/,
-    poll: false
+    aggregateTimeout: 300,
+    poll: 1000
   }
 })
 

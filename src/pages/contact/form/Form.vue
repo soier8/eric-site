@@ -44,16 +44,18 @@
               select(name="form.target" v-model="form.target" v-validate="validations.target" data-vv-as="Com Quem Deseja Falar" v-bind:class="{'is-danger': errors.has('form.target')}")
                 option(default value="") Selecione...
                 option(value="communication") Comunicação
-                option(value="reward") Condecorações
-                option(value="growth") Crescimento
-                option(value="office") Escritório
+                option(value="admin") Administrativo 
+                option(value="plane") Planejamento
+                option(value="radio") Rádio-Escotismo                
                 option(value="financial") Financeiro
                 option(value="adults") Gestão de Adultos
-                option(value="institutional") Gestão Institucional
-                option(value="youngs") Jovens Líderes
-                option(value="legal") Jurídico
-                option(value="ombudsman") Ouvidoria
-                option(value="educative") Programa Educativo
+                option(value="human") Mobilização Humanitária
+                option(value="etic") Ética e Disciplina
+                option(value="formacao") Formação de Adultos
+                option(value="lob") Ramo Lobinho
+                option(value="scout") Ramo Escoteiro  
+                option(value="senior") Ramo Sênior  
+                option(value="pion") Ramo Pioneiro  
         div.field.control.is-horizontal
           div.control-label
             label.label Mensagem
@@ -157,8 +159,8 @@
       title: getSeoTitle('Contato'),
       meta: () => {
         return getSeoMeta({
-          title: 'Contato - Escoteiros de Minas',
-          description: 'Entre em contato! - Escoteiros de Minas Gerais'
+          title: 'Contato - Distrito Metropolitano de Minas Gerais',
+          description: 'Entre em contato! - Distrito Metropolitano de Minas Gerais'
         })
       }
     },

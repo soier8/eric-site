@@ -27,13 +27,13 @@
   .news-banner
     background-blend-mode: multiply
     background-color: rgba(0, 0, 0, 0.42)
-    background-image: url('~assets/images/news-banner.jpg')
+    background-image: url('~assets/images/news-banner.jpeg')
     background-size: cover
     background-repeat: no-repeat
     background-position: 0 100%
     .hero-body
-      padding-top: 12rem
-      min-height: 25rem
+      padding-top: 15rem
+      min-height: 33rem
       section.container
         text-align: left
       .subtitle

@@ -12,8 +12,8 @@
       title: getSeoTitle('Documentos'),
       meta: () => {
         return getSeoMeta({
-          title: 'Documentos - Escoteiros de Minas',
-          description: 'Documentos - Escoteiros de Minas Gerais'
+          title: 'Documentos - Distrito Metropolitano de Minas Gerais',
+          description: 'Documentos - Distrito Metropolitano de Minas Gerais'
         })
       }
     },
